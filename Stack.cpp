@@ -13,7 +13,7 @@ class Stack{
     node<T> * head= nullptr;
     int sz=0;
 public:
-    void push(int val){
+    void push(T val){
         node<T>*temp = new node<T>;
         sz++;
         temp->val=val;
